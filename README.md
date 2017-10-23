@@ -1,5 +1,10 @@
 # gdc-workflow-cwl-v1
 
+## Docker
+
+[Docker](https://www.docker.com/) need to be installed before running the tools.
+
+
 ## Rabix
 
 These cwl.v1 can run by [rabix-1.0.0-rc2](https://github.com/rabix/bunny/releases/download/v1.0.0-rc2/rabix-1.0.0-rc2.tar.gz) .
