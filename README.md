@@ -2,7 +2,7 @@
 
 ## Rabix
 
-These cwl.v1 can run by [rabix](http://rabix.io) .
+These cwl.v1 can run by [rabix-1.0.0-rc2](https://github.com/rabix/bunny/releases/download/v1.0.0-rc2/rabix-1.0.0-rc2.tar.gz) .
 
 ```
 usage: rabix *.cwl input.json
