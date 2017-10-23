@@ -4,9 +4,10 @@
 
 This cwl.v1 can run by [rabix](http://rabix.io) .
 
-`
+```
 usage: rabix bwa-mem.cwl input.json
-`
+
+```
 
 **example : input.json**
 
@@ -29,3 +30,7 @@ usage: rabix bwa-mem.cwl input.json
 }
 
 ```
+
+## CAVATICA
+
+CWL.v1 also can import to [CAVATICA](http://cavatica.sbgenomics.com)
