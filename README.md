@@ -8,7 +8,6 @@ These cwl.v1 can run by [rabix](http://rabix.io) .
 usage: rabix *.cwl input.json
 
 ```
-
 **example for bwa-mem.cwl : input.json**
 
 ```
