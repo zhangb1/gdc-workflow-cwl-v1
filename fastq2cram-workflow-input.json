@@ -1,0 +1,18 @@
+{
+    "reference" : {
+      "location" : "/Users/zhangb1/Documents/Tools/CWL.V1/exampleFASTA.fasta",
+      "class" : "File"
+    },
+   "read_group": "'@RG\tID:bwa\tSM:cwl-test'",
+   "output_bam": "test.sort.rd.bam",
+   "output_cram": "test.sort.rd.cram",
+    "input" : [ {
+      "location" : "/Users/zhangb1/Documents/cavatica/GRCh37/test3_normal_1.fq.gz",
+      "class" : "File"
+    }, {
+      "location" : "/Users/zhangb1/Documents/cavatica/GRCh37/test3_normal_2.fq.gz",
+      "class" : "File"
+      }
+     ]
+}
+
