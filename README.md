@@ -33,4 +33,4 @@ usage: rabix bwa-mem.cwl input.json
 
 ## CAVATICA
 
-CWL.v1 also can import to [CAVATICA](http://cavatica.sbgenomics.com)
+These cwl.v1  also can be imported to [CAVATICA](http://cavatica.sbgenomics.com) by using Rabix Composer.
