@@ -4,9 +4,9 @@
 
 This cwl.v1 can run by [rabix](http://rabix.io) .
 
-```
+`
 usage: rabix bwa-mem.cwl input.json
-```
+`
 
 **example : input.json**
 
