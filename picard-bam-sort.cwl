@@ -2,7 +2,8 @@ class: CommandLineTool
 cwlVersion: v1.0
 id: picard_bam_sort
 baseCommand:
-  - picard
+  - java -jar
+  - /picard-2.6.0/picard-2.6.0.jar
   - SortSam
 inputs:
   - id: input_bam
@@ -37,7 +38,7 @@ arguments:
     valueFrom: VALIDATION_STRINGENCY=STRICT
 requirements:
   - class: DockerRequirement
-    dockerPull: 'images.sbgenomics.com/bobo823/bcbio:v0.9.7aR'
+    dockerPull: 'images.sbgenomics.com/bobo823/gdc-tools:v1.00'
 'sbg:job':
   inputs:
     input_bam:

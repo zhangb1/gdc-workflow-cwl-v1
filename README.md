@@ -8,7 +8,7 @@ These cwl.v1 can run by [rabix](http://rabix.io) .
 usage: rabix *.cwl input.json
 
 ```
-**example for bwa-mem.cwl : input.json**
+**example for workflow-input : fastq2cram-workflow-input.json**
 
 ```
 {
@@ -16,8 +16,9 @@ usage: rabix *.cwl input.json
       "location" : "/Users/zhangb1/Documents/Tools/CWL.V1/exampleFASTA.fasta",
       "class" : "File"
     },
-   "read_group": "'@RG\tID:cwl-test\tSM:Test'",
-   "output": "test.bam",
+   "read_group": "'@RG\tID:bwa\tSM:cwl-test'",
+   "output_bam": "test.sort.rd.bam",
+   "output_cram": "test.sort.rd.cram",
     "input" : [ {
       "location" : "/Users/zhangb1/Documents/cavatica/GRCh37/test3_normal_1.fq.gz",
       "class" : "File"
@@ -27,7 +28,6 @@ usage: rabix *.cwl input.json
       }
      ]
 }
-
 ```
 
 

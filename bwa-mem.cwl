@@ -56,7 +56,7 @@ arguments:
 requirements:
   - class: ShellCommandRequirement
   - class: DockerRequirement
-    dockerPull: 'images.sbgenomics.com/bobo823/bcbio:v0.9.7aR'
+    dockerPull: 'images.sbgenomics.com/bobo823/gdc-tools:v1.00'
 'sbg:job':
   inputs:
     read_group: read_group-string-value
