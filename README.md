@@ -38,4 +38,4 @@ usage: rabix *.cwl input.json
 
 ## CAVATICA
 
-These cwl.v1  also can be imported to [CAVATICA](http://cavatica.sbgenomics.com) by using Rabix Composer.
+These cwl.v1  also can be imported to [CAVATICA](http://cavatica.sbgenomics.com) by using Rabix Composer.(Testing...)
