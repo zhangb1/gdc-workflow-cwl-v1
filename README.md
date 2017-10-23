@@ -2,14 +2,14 @@
 
 ## Rabix
 
-This cwl.v1 can run by [rabix](http://rabix.io) .
+These cwl.v1 can run by [rabix](http://rabix.io) .
 
 ```
-usage: rabix bwa-mem.cwl input.json
+usage: rabix *.cwl input.json
 
 ```
 
-**example : input.json**
+**example for bwa-mem.cwl : input.json**
 
 ```
 {
@@ -30,6 +30,7 @@ usage: rabix bwa-mem.cwl input.json
 }
 
 ```
+
 
 ## CAVATICA
 
