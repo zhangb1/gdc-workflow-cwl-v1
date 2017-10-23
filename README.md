@@ -7,7 +7,7 @@
 
 ## Rabix
 
-These cwl.v1 can run by [rabix-1.0.0-rc2](https://github.com/rabix/bunny/releases/download/v1.0.0-rc2/rabix-1.0.0-rc2.tar.gz) .
+These cwl tools are created by [Rabix Composer (1.0.0-rc.1)](https://github.com/rabix/composer) and by using the [rabix-1.0.0-rc2](https://github.com/rabix/bunny/releases/download/v1.0.0-rc2/rabix-1.0.0-rc2.tar.gz) can run locally.
 
 ```
 usage: rabix *.cwl input.json
