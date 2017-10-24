@@ -13,7 +13,7 @@ These cwl tools are created by [Rabix Composer (1.0.0-rc.1)](https://github.com/
 usage: rabix *.cwl input.json
 
 ```
-**example for workflow-input : fastq2cram-workflow-input.json**
+**Example for workflow-input : fastq2cram-workflow-input.json**
 
 ```
 {
