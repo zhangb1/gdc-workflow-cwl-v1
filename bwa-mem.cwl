@@ -23,15 +23,19 @@ inputs:
       - .ann
       - .amb
       - ^.dict
-  - id: input
-    type: 'File[]?'
+  - id: input1
+    type: File?
     inputBinding:
       position: 5
   - id: output
     type: string?
     inputBinding:
-      position: 6
+      position: 8
       prefix: ''
+  - id: input2
+    type: File?
+    inputBinding:
+      position: 6
 outputs:
   - id: output_1
     type: File?
@@ -47,10 +51,10 @@ arguments:
   - position: 2
     prefix: '-T'
     valueFrom: '0'
-  - position: 8
+  - position: 9
     prefix: ''
     valueFrom: '-'
-  - position: 6
+  - position: 7
     prefix: ''
     valueFrom: '| samtools view -Shb -o'
 requirements:
@@ -69,18 +73,25 @@ requirements:
       path: /path/to/input.ext
       secondaryFiles: []
       size: 0
-    input:
-      - class: File
-        contents: file contents
-        path: /path/to/input-1.ext
-        secondaryFiles: []
-        size: 0
-      - class: File
-        contents: file contents
-        path: /path/to/input-2.ext
-        secondaryFiles: []
-        size: 0
+    input1:
+      basename: input1.ext
+      class: File
+      contents: file contents
+      nameext: .ext
+      nameroot: input1
+      path: /path/to/input1.ext
+      secondaryFiles: []
+      size: 0
     output: output-string-value
+    input2:
+      basename: input.ext
+      class: File
+      contents: file contents
+      nameext: .ext
+      nameroot: input
+      path: /path/to/input.ext
+      secondaryFiles: []
+      size: 0
   runtime:
     cores: 1
     ram: 1000
