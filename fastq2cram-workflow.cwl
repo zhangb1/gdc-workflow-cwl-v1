@@ -13,13 +13,17 @@ inputs:
   - id: output_cram
     type: string?
     'sbg:exposed': true
-  - id: input
-    type: 'File[]?'
-    'sbg:x': -111.29165649414062
-    'sbg:y': 71.96224212646484
   - id: read_group
     type: string?
     'sbg:exposed': true
+  - id: input2
+    type: File?
+    'sbg:x': -133.16793823242188
+    'sbg:y': -19.701574325561523
+  - id: input1
+    type: File?
+    'sbg:x': -247.71234130859375
+    'sbg:y': 134.93338012695312
 outputs:
   - id: output
     outputSource:
@@ -86,14 +90,17 @@ steps:
       - id: reference
         source:
           - reference
-      - id: input
+      - id: input1
         source:
-          - input
+          - input1
       - id: output
         default: sample.bam
+      - id: input2
+        source:
+          - input2
     out:
       - id: output_1
     run: /Users/zhangb1/Documents/Tools/CWL.V1/GDC/tools/bwa-mem.cwl
     label: bwa-mem
-    'sbg:x': 172.04165649414062
+    'sbg:x': 180.05976485693787
     'sbg:y': 45.29557418823242
