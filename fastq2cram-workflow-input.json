@@ -3,7 +3,7 @@
       "location" : "/Users/zhangb1/Documents/Tools/CWL.V1/exampleFASTA.fasta",
       "class" : "File"
     },
-   "read_group": "'@RG\tID:bwa\tSM:cwl-test'",
+   "read_group": "'@RG\\tID:test\\tSM:cwl-test'",
    "output_bam": "test.sort.rd.bam",
    "output_cram": "test.sort.rd.cram",
     "input1" :  {
