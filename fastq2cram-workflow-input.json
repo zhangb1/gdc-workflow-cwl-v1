@@ -6,13 +6,14 @@
    "read_group": "'@RG\tID:bwa\tSM:cwl-test'",
    "output_bam": "test.sort.rd.bam",
    "output_cram": "test.sort.rd.cram",
-    "input" : [ {
+    "input1" :  {
       "location" : "/Users/zhangb1/Documents/cavatica/GRCh37/test3_normal_1.fq.gz",
       "class" : "File"
-    }, {
+    }, 
+    "input2" : {
       "location" : "/Users/zhangb1/Documents/cavatica/GRCh37/test3_normal_2.fq.gz",
       "class" : "File"
       }
-     ]
+  
 }
 
