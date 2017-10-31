@@ -31,7 +31,6 @@ inputs:
     type: string?
     inputBinding:
       position: 8
-      prefix: ''
   - id: input2
     type: File?
     inputBinding:
@@ -53,7 +52,6 @@ arguments:
     valueFrom: '0'
   - position: 9
     prefix: ''
-    valueFrom: '-'
   - position: 7
     prefix: ''
     valueFrom: '| samtools view -Shb -o'
