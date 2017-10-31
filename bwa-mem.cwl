@@ -50,10 +50,8 @@ arguments:
   - position: 2
     prefix: '-T'
     valueFrom: '0'
-  - position: 9
-    prefix: ''
   - position: 7
-    prefix: ''
+    shellQuote: false
     valueFrom: '| samtools view -Shb -o'
 requirements:
   - class: ShellCommandRequirement
