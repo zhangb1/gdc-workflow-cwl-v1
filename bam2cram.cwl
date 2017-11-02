@@ -20,7 +20,7 @@ inputs:
       position: 2
       prefix: '--reference-fasta-file'
     secondaryFiles:
-      - ^.fai
+      - .fai
   - id: output_cram
     type: string?
     inputBinding:
